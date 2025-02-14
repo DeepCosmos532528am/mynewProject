@@ -2,9 +2,9 @@ interface King {
     int a = 34;
     void queen(int decrement);
 }
-// NOTE : Imp Concept-- in the case of interfaces if the interface containing the variables and the methods too then , this is compulsory needed to have the implementing
-// class to override the method too in the class with public declaration , But the variable dont say ki m agar interface me hu toh method ki tarah mujhe bhi
-//class me jagah do , wo kehta h ki agar chahiye toh override karlo , nahi toh rehne do m interface me hi hu , zaroorat pade toh override , warna apan toh h interface me hi hided!
+// NOTE : Imp Concept-- In the case of interfaces if the interface containing the variables and the methods too then , this is compulsorily need to have the implementing
+// class(Concrete Class) to override the method too in the class with public(access Modifier) declaration , But the variable don't say ki m agar interface me hu toh method ki tarah mujhe bhi
+//class me jagah do , wo kehta h ki agar chahiye toh override karlo , nahi toh rehne do m interface me hi hu , zaroorat pade toh override karlena , warna apan toh h interface me hi hided!
 class C1 implements King{
     public void queen(int decrement){ // Remember that the public keyword is always necessary to declare here in the interface method , as done in this !
         System.out.println(decrement);// This is not necessary in interfaces to have the same paramemnter namee as  initialized in interface method that is overriden  , see the difference in the decrement and the decreasing

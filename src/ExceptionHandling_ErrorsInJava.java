@@ -19,7 +19,7 @@ public class ExceptionHandling_ErrorsInJava {
         // Runtime errors
 Scanner sc = new Scanner(System.in);
 int i = sc.nextInt();
- // if input is out of rannge or if data type of user input does not match int type then runtime error
+ // if input is out of range or if data type of user input does not matches Integer type then runtime error
 
 
     }

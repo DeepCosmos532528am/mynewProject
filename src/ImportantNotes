@@ -1,0 +1,31 @@
+new Class().method(); --> is the way known as Anonymous object invocation (AOI),
+should be used when from that specific class the method calling is done  for utmost for once only .
+
+Because with each  AOI , a new object is created , automatically acquires so much space , even though the space can be reduced by
+one time object declaration for multiple method call ! that is our normal way , we often do .
+
+so  new Class().method(); should be used when one time method call is there because it would not create any
+significant difference  , because with both the ways , at least single object indeed is created
+
+so new Class().method();  is the way which do not have reference variable to store object , because no need to store obj
+as not so much method call is there that we will perform , only one method call
+
+but we will use class ref_variable = new obj(); , it have ref_variable ,  to store object in ref_variable ,
+    facilitates in two way  --> 1. one time obj creation for multiple method call , reducing space usage .
+                                                 2. use ful in calling multiple function with the size constraints
+--------------------------------------------------------------------------------------------------------------------------------------------------
+Interfaces with one method are called Functional_Interfaces
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+

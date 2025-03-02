@@ -1,5 +1,5 @@
 
-class newmain{
+/*class newmain{
 
     private int hey;
     private String name;
@@ -41,18 +41,18 @@ class newmain{
         return free;
     }
 
-}
 
 
 
-public class index {
-    public static void main(String[] args) {
+}   */ // Open this wrap when needed to see , (Not so special Concept is inside this wrap)_
+/* public class index {
+  public static void main(String[] args) {
         newmain myclass = new newmain();  // rules are - in the copy at last .  // Thi sis the Constructor, I can see that this is the Object itsel :)
-       int ghj = myclass.mymain(3,5);
+        int ghj = myclass.mymain(3,5);
         System.out.println(ghj);
         String name1 = "john";
         String name2 = " doe";
-        String name3 = name1 + name2 ;
+        String name3 = name1 + name2 ; // Concatenation of two Strings
         System.out.println(name3);
         System.out.println();
 
@@ -74,4 +74,4 @@ public class index {
         int inherit = 1491;
 
     }
-}
+}   */ // Same here

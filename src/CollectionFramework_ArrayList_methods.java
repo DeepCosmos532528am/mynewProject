@@ -33,6 +33,7 @@ public class CollectionFramework_ArrayList_methods {
         lk.add("h");
         lk.add("i");
         lk.add("n");
+        System.out.println(lk);
         System.out.println(lk.addAll(lk));
         System.out.println(lk.size());
         System.out.println(lk.contains("s"));

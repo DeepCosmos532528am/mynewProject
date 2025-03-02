@@ -5,20 +5,20 @@ public class MyVirtualLibrary {
 
     }
     void showBook(){
-        System.out.println();
+        System.out.println("All books in the Stock ");
         for(String allbooks: this.books){
             System.out.println(allbooks);
         }
 
     }
     void issueBook(String...issubooks){
-
+        System.out.print("Your issued books are: ");
         for(String myissuebooks : issubooks){
             for(String issuewali: this.books){
 
-                if(issubooks.equals(issuewali)){
-                    System.out.println("Your issued books are: " + (issuewali));
-                    System.out.println(issuewali);
+                if(myissuebooks.equals(issuewali)){
+
+                    System.out.print(issuewali+ " ,");
                 }}
         }
 
@@ -27,6 +27,8 @@ public class MyVirtualLibrary {
     public static void main(String[] args) {
         MyVirtualLibrary library = new MyVirtualLibrary();
         library.addBook("Hindi","English" ,"Maths" ,"SST", "Ramayan");
+        library.addBook("psychology");
+        library.showBook();
         library.issueBook("English" , "Ramayan");
 
     }

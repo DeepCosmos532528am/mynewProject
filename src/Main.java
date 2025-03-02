@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class newClass{
 
 private String name2;
@@ -7,11 +9,14 @@ public String getName(){
     return name1 + name2;
 }
 public void setName( String name){
+    try{
     if(name.equals("Sharma") || name.equals("sharma")){
         name2 = name;
 
     }else {
         throw new RuntimeException();
+    }}catch(RuntimeException e){
+        System.out.println("Exception aa gya yaar...");
     }
 }
 }
@@ -27,10 +32,11 @@ class Main {
     }
 
     public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
         newClass newCls = new newClass();
         System.out.println("Printing the values " + myfunc(2, 3, 4));
 
-        newCls.setName("sharma");
+        newCls.setName(sc.next());
         System.out.println("Here is my name "+newCls.getName());
 
 

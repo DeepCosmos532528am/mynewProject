@@ -4,22 +4,11 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Scanner;
 
-/*class sas{
-    int [] arr = new int[6];
-void a ( int ...alelo) {
-   int g = alelo;
-   for (int i = 0 ;i < arr.length ; i++ ) {
-       arr[i] = alelo;
-       System.out.println(Arrays.toString(arr));
-   }
-}
-}
-*/
+
 public class AddCommons {
     int[] arr1;
     int[] arr2;
     HashSet<Integer> traversed = new HashSet<>();
-
     Scanner sc = new Scanner(System.in);
 
     void set_Arrays(int array_Size) {
@@ -47,8 +36,8 @@ public class AddCommons {
     void get_Commons_With_Addition() {
         boolean found = true;
         boolean headerPrinted = false;
-
         int sum = 0;
+
         for (int i = 0; i < arr1.length; i++) {
             for (int j = 0; j < arr2.length; j++) {
 
